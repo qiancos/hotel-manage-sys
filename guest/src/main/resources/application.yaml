@@ -2,13 +2,14 @@
 mybatis-plus:
  mapper-locations: classpath:mybatis/mapper/*.xml
  type-aliases-package: com.guest.pojo
+
 # 连接数据库
 spring:
   thymeleaf:
     cache: false
   datasource:
     username: root
-    password: 123456
+    password: root
     url: jdbc:mysql://localhost:3306/guest?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
 #    url: jdbc:mysql://10.0.0.3:3306/guest?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -50,6 +51,11 @@ spring:
     multipart:
       max-file-size: 5MB
       max-request-size: 5MB
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
 #  redis:
 #    host: 127.0.0.1
     #bit↓

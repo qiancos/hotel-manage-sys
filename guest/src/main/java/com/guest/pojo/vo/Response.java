@@ -6,7 +6,11 @@ import lombok.Data;
 import java.io.Serializable;
 import java.util.Date;
 
-
+/**
+ *
+ * @author qianye
+ * @since 2023-9-17
+ */
 @Data
 public class Response<T> implements Serializable {
     /** 返回信息码*/

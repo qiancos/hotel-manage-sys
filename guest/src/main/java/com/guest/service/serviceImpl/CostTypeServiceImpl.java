@@ -15,8 +15,8 @@ import java.util.List;
  *  服务实现类
  * </p>
  *
- * @author ${author}
- * @since 2020-12-02
+ * @author qianye
+ * @since 2023-9-17
  */
 @Service
 public class CostTypeServiceImpl extends ServiceImpl<CostTypeMapper, CostType> implements CostTypeService {

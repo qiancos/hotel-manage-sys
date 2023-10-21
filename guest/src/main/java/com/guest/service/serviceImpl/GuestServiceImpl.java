@@ -14,8 +14,8 @@ import java.util.List;
  *  服务实现类
  * </p>
  *
- * @author 张雪萍
- * @since 2020-12-02
+ * @author qianye
+ * @since 2023-9-17
  */
 @Service
 public class GuestServiceImpl extends ServiceImpl<GuestMapper, Guest> implements GuestService {

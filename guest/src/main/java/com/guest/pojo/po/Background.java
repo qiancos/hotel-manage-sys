@@ -12,8 +12,8 @@ import org.springframework.data.annotation.Id;
  * 后台管理的账号
  * </p>
  *
- * @author 张雪萍
- * @since 2020-11-27
+ * @author qianye
+ * @since 2023-9-17
  */
 @Data
 @NoArgsConstructor

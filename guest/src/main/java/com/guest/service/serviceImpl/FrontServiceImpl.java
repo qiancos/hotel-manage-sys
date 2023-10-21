@@ -12,8 +12,8 @@ import org.springframework.stereotype.Service;
  *  服务实现类
  * </p>
  *
- * @author 张雪萍
- * @since 2020-11-27
+ * @author qianye
+ * @since 2023-9-17
  */
 @Service
 public class FrontServiceImpl extends ServiceImpl<FrontMapper, Front> implements FrontService {

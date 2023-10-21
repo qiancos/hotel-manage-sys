@@ -21,8 +21,8 @@ import java.util.List;
  *  接口地址：http://localhost:80/swagger-ui.html
  * </p>
  *
- * @author 路建彬
- * @since 2020-11-27
+ * @author qianye
+ *  * @since 2023-9-10
  */
 @Configuration
 @EnableSwagger2

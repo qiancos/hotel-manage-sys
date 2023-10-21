@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
  *  服务类
  * </p>
  *
- * @author 张雪萍
- * @since 2020-11-27
+ * @author qianye
+ * @since 2023-9-17
  */
 @Service
 public interface BackgroundService extends IService<Background> {
